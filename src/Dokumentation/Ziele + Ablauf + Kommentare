@@ -23,17 +23,21 @@ ______________
 14.06.2023
 ______________
 Ziele:
-0) Projekt zum GitHub hochladen und zukünftig aktualisieren
-1) dem Lukas alles was habe ich gemacht vorstellen
+0) Dem Lukas alles was habe ich gemacht vorstellen
+1) Projekt zum GitHub hochladen und zukünftig aktualisieren
 2) Punkt 1
        -klasse LegoStein erstellen
        -Konstruktor für weitere LegoSteine erstellen
 ______________
 Ablauf:
-
+1) Ich habe alles dem Lukas vorgestellt
+2) Projekt ist on GitHub hochgeladen
+3) Klasse Legostein ist erstellt
+    -Konstruktor mit 3 Felder (Parameters) ist erstellt
 
 ______________
 Kommentare/Fragen:
+1) Ich muss dann die Werte für Datentyp float mit "f" am Ende bezeichnen? Warum Datentyp double ist nicht bezeichnet mit "d"?
 
 
 ______________
