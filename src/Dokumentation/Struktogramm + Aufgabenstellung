@@ -1,0 +1,40 @@
+Ich mache folgende:
+
+1) erstelle die Klasse "LegoStein" mit den folgenden Feldern:
+
+        - "groesseX": Die Größe des Lego-Steins in X-Richtung.
+        - "groesseY": Die Größe des Lego-Steins in Y-Richtung.
+        - "farbe": Die Farbe des Lego-Steins.
+        - Erstelle einen Konstruktor in der Klasse, um neue Lego-Steine mit den entsprechenden Attributen zu erstellen.
+
+2) erstelle die Klasse "Fach" mit den folgenden Eigenschaften:
+
+        - "farbeDesFachs": Die Farbe des Fachs.
+        - "legoSteineListe": Eine Liste von Lego-Steinen, die in diesem Fach enthalten sind.
+            - Implementiere die boolean Methode "passt(LegoStein legoStein)", um zu überprüfen, ob ein Lego-Stein in das Fach passt.
+            - Dazu vergleiche die Farbe des Lego-Steins mit der Farbe des Fachs.
+
+3) erstelle die Klasse "Schachtel" mit der folgenden Eigenschaft:
+
+        - "fächerListe": Eine Liste von Fächern, die in der Schachtel enthalten sind.
+                Implementiere die Methode "addLegoStein(LegoStein legoStein)", um einen Lego-Stein zur Schachtel hinzuzufügen und
+                in das passende Fach einzusortieren.
+        - Gehe durch jedes Fach in der "fächerListe" und überprüfe mit der Methode "passt", ob der Lego-Stein in das Fach passt.
+        - Wenn ein passendes Fach gefunden wurde, füge den Lego-Stein in die "legoSteineListe" des Faches ein.
+        (oder die Steine erstellen nur mit die Farben, die sind schon an Fächer zugeordnet?)
+        - Wenn kein passendes Fach gefunden wurde - Fehlermeldung ausgeben
+        oder
+        - ??? Wie schwer wäre es für mich ??? Wenn kein passendes Fach gefunden wurde, erstelle ein neues Fach mit der Farbe des Lego-Steins und füge den
+          Lego-Stein in die "legoSteineListe" des neuen Fachs ein.
+4) initialisiere eine Instanz der Klasse "Schachtel" und erstelle eine Liste von verschiedenen Lego-Steinen.
+    (also )
+5) für jeden Lego-Stein in der Liste:
+
+   -Rufe die Methode "addLegoStein" der Schachtel-Instanz auf und übergebe den aktuellen Lego-Stein.
+   -Die "addLegoStein"-Methode sucht nach einem passenden Fach für den Lego-Stein und füge ihn
+    in das entsprechende Fach ein oder erstelle ein neues Fach, falls keines gefunden wurde.
+6) riechte Ausgabe ein: ich gehe durch jedes Fach in der Schachtel:
+
+   - Gebe die Farbe des Fachs aus.
+   - Gehe durch jeden Lego-Stein in dem Fach:
+        - Gebe die Attribute des Lego-Steins (Größe in X- und Y-Richtung sowie Farbe) aus.
