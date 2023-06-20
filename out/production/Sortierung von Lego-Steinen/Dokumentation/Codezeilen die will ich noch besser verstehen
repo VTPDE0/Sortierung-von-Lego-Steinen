@@ -1,0 +1,31 @@
+_____1_______________________________________________________________
+
+Klasse "Fach", erste Variation der Methode "passt"
+////
+    private boolean ob_LegoStein_passt_zu_Fach (LegoStein legoStein) {
+        for(LegoStein current: this.LegosteineListe){ /*please write description here*/
+            if(current.get_Farbe_des_LegoSteines().equals(legoStein)){ /*and here x_x*/
+                return true;
+            }
+        }
+        return false;
+    }
+_____2_______________________________________________________________
+
+/*
+    Diese Methode in Klasse Fach, wollte ich nutzen um zu LegoStein aus dem Fach kriegen und feststellen, dass es war in Fach gespeichert, das funktioniert aber nicht so wie ich habe mir vorgestellt
+    public LegoStein get_LegoStein(){
+        return legoStein;
+    }
+    */
+_____3_______________________________________________________________
+
+/*Beispielausgabe von LegoStein1
+            System.out.println("Lego Stein 1 ist: " + "X = " + LegoStein1.get_Groesse_X() + " " + "Y = " + LegoStein1.get_Groesse_Y() + " " + "farbe = "  + LegoStein1.get_Farbe_des_LegoSteines());*/
+_____4_______________________________________________________________
+/*Beispielausgabe von Inhalt des Fach1
+
+    for (Fach fach : schachtel_mit_faecher.getFaecherliste()) {
+        System.out.println("Fachfarbe: " + fach.get_Farbe_des_Faches());
+
+       }*/
