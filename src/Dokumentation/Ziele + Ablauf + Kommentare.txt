@@ -18,6 +18,25 @@ Kommentare/Fragen:
 3)
 ______________
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+21.06.2023 Mittwoch 3/3
+______________
+Ziele:
+1) Zum Leben Dokumentation Files wiederbringen
+2) Prüfen, ob alles funktioniert wie in Aufgabestellung vorgeschrieben
+3) Anpassen Ausgaben
+______________
+Ablauf:
+1) Die Dokumentation Files habe ich umgenannt- am Ende .txt hinzugefügt. Jetzt sie funktionieren wieder
+2) Habe angepasst Ausgaben und geprüft, dass alle Methoden funktionieren wie es sein soll
+3) Aufgabe ist fertig
+
+______________
+Kommentare/Fragen:
+1) War sehr interessant, jetzt kann ich deutlich besser die Schleifen und Listenverwaltung verstehen und benutzen
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 20.06.2023 Dienstag 2/3
 ______________
 Ziele:

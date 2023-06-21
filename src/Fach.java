@@ -8,7 +8,6 @@ public class Fach {
 
     public Fach (String farbe_des_Faches){
         this.farbe_des_Faches = farbe_des_Faches;
-        //this.legoStein = legoStein;
     }
 
     public List<LegoStein> getLegosteineListe() {
@@ -20,7 +19,10 @@ public class Fach {
     }
 
 
-    public boolean ob_LegoStein_passt_zu_Fach (LegoStein legoStein) { /*Dies ist die Methodendeklaration, die besagt, dass die Methode ob_LegoStein_passt_zu_Fach einen LegoStein als Parameter (legoStein ist der Name des Parameters, der hat Typ Legostein) akzeptiert und einen boolean-Wert zurückgibt (entweder true oder false).*/
+    /*Dies ist die Methodendeklaration, die besagt, dass die Methode ob_LegoStein_passt_zu_Fach einen LegoStein als
+    Parameter (legoStein ist der Name des Parameters, der hat Typ Legostein) akzeptiert und
+    einen boolean-Wert zurückgibt (entweder true oder false).*/
+    public boolean ob_LegoStein_passt_zu_Fach (LegoStein legoStein) {
         return legoStein.get_Farbe_des_LegoSteines().equals(this.farbe_des_Faches);
     }
 
